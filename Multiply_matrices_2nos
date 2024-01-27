@@ -1,9 +1,10 @@
-// Python program to multiply 2 matrices
-// Naming the matrices A and B
-// C is the product matrix
-// C = A.B
-// print C
-
+'''
+ Python program to multiply 2 matrices
+ Naming the matrices A and B
+ C is the product matrix
+ C = A.B
+ print C
+'''
 def matrix_multiply(A, B):
     """
     Multiply two matrices A and B and return the result.
