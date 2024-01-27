@@ -1,0 +1,6 @@
+// Python program to multiply 2 matrices
+// Naming the matrices A and B
+// C is the product matrix
+// C = A.B
+// print C
+
