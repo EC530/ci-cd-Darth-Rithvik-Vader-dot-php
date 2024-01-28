@@ -1,3 +1,5 @@
+from your_module_or_file import matrix_multiply
+
 # Test Case 1: Correct input
 A = [[1, 2, 3],
      [4, 5, 6]]
