@@ -51,6 +51,11 @@ jobs:
         python -m pytest
         pip install -upgrade pytest coverage
         python -m pytest --verbose
+        pip install --upgrade pytest
+        python -m venv venv
+        source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
+        pip install -r requirements.txt  # Install your project dependencies
+
 
 # python -m coverage run -m pytest
 # python -m coverage report
