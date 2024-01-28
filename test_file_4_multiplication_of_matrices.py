@@ -1,4 +1,4 @@
-from Multiply_matrices_2nos.py import matrix_multiply
+from Multiply_matrices_2nos.py import matrix_multiply(A, B)
 
 # Test Case 1: Correct input
 A = [[1, 2, 3],
