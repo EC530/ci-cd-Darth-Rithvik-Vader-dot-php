@@ -1,0 +1,20 @@
+Run python -m coverage run --m pytest
+  
+============================= test session starts ==============================
+platform linux -- Python 3.9.18, pytest-8.0.0, pluggy-1.4.0
+rootdir: /home/runner/work/ci-cd-Darth-Rithvik-Vader-dot-php/ci-cd-Darth-Rithvik-Vader-dot-php
+collected 0 items
+
+============================ no tests ran in 0.00s =============================
+/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/coverage/control.py:887: CoverageWarning: No data was collected. (no-data-collected)
+  self._warn("No data was collected.", slug="no-data-collected")
+Error: Process completed with exit code 5.
+
+Here the Python version is 3.9.18 and pytest version is 8.0.0
+My laptop has Python version of 3.9.13 but that has nothing to do with this, as it is operating in an Virtual Machine (VM).
+
+# I'll now try running pytest without coverage to see if the tst runs successfully without coverage measurement.
+Using the following command: "python -m pytest"
+(This command actually takes a very long time to execute, it is still executing. So, I closed the terminal)
+
+Using the following command: "pip install --upgrade pytest coverage", I was able to update the pytest version on my terminal.
